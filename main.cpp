@@ -1,9 +1,13 @@
 #include <cstdio>
 #include <cstdlib>
 
-int main()
+int main(int argc, char* argv[])
 {
-	printf("Hellow World!!");
+	for (int i = 0; i < argc; i++)
+	{
+ 		printf(argv[i]);
+		printf("\n");
+	}
 
 	system("pause");
 
